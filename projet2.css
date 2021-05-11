@@ -1,0 +1,451 @@
+:root
+{
+    --bleu:#0065fc;
+    --bleuClaire:#deebff;
+    --gris:#f2f2f2;
+    font-family: 'police';
+}
+@font-face {
+    font-family: 'police';
+    src: url(police.eot/Raleway-Regular.ttf);
+}
+h1
+{
+    font-size: small;
+}
+h3
+{
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 2%;
+}
+p
+{
+    font-size: small;
+}
+/*navigation*/
+
+form
+{
+    margin-left: 15px;
+    color: black;
+    display: inline-block;
+}
+.placeholder
+{
+    border: 2px solid var(--gris);
+    font-weight: bold;
+    padding: 10px 10px 10px 10px ;
+    background-color: white;
+    border-radius: 0px;
+}   
+.fa-map-marker-alt
+{
+    border: 2px solid var(--gris);
+    font-weight: bold;
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: #ececec;
+}
+.btn-recherche 
+{
+    border: 2px solid var(--bleu);
+    background-color: var(--bleu);
+    color: white;
+    width: 100px;
+    height: 40px;
+    display:inline-block;
+    border-radius: 0px 10px 10px 0px;
+}
+#loupe
+{
+    display: none;
+}
+.btn-recherche:hover
+{
+    color:black;
+    border-top:black 3px solid;   
+}
+form input 
+{
+   
+    font-size: 15px;
+    margin-left: -4px;
+}
+
+.btn-filtre
+{
+    border-radius: 20px;
+    border: 2px solid var(--gris);
+    font-weight: bold;
+    padding: 10px 10px 10px 0px ;
+    background-color: white;
+}
+.btn-filtre:hover
+{
+    color:var(--bleu);
+    border-top:var(--bleu) 3px solid;    
+}
+.stars
+{
+    background-color: white ; 
+    color: var(--bleu);
+    font-size: 15px;
+}
+.nav-btn
+{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 30px;
+    border-top: white 3px solid;
+    cursor: pointer;
+}
+.nav-btn:hover
+{
+    color:var(--bleu);
+    border-top:var(--bleu) 3px solid;    
+}
+nav
+{
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr 1fr;
+    grid-template-rows: 100px;
+    
+}
+.logo
+{
+    width: 10%;
+    padding-top: 30px;
+    margin-left: 15px;
+}
+.sinscrire-btn
+{
+    text-decoration: none;
+    color:var(--bleu);
+    padding-top: 30px;
+    font-weight: bold;
+}
+.remarque
+{
+    margin-left: 15px;
+}
+.info
+{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.btn-icon
+{
+    padding: 10px;
+    background-color: var(--bleuClaire);
+    border-radius: 50%;
+    color: var(--bleu);
+}
+.filtres
+{
+    margin-left: 15px;
+}
+/*container*/
+
+.container
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    margin-left: 20px;
+    margin-top: 70px;  
+    margin-right: 20px; 
+}
+
+.section
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5% 35% 35% auto;
+    background-color: #ececec;
+    gap: 20px;
+    border-radius: 10px ;
+    padding: 20px;
+}
+    
+.section-carte
+{
+   color: black;
+   background-color: white;
+   text-decoration: none;
+   border-radius: 10%;
+   border: white solid 3px;
+   width: 90%;
+   box-shadow: 5px 5px 10px rgb(128, 128, 128);
+   margin-left: 10PX;
+   margin-bottom: 20px;
+}
+
+.titre
+{
+    grid-column: 1 / 4;
+    grid-row: 1;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.afficher-plus
+{
+    text-decoration: none;
+    color: black;
+}
+
+.hebergement
+{
+    width: 100%;
+    border-radius: 10% 10% 0 0;
+}
+.hebergement-texte
+{
+    margin: 10px;
+    height: 90px;
+}
+
+.hebergement-texte p
+{
+    padding: 2px;
+    margin: 0;
+}
+.text-pop
+{
+    padding-left: 40%;
+    padding-top: 20px;
+}
+.aside
+{
+    background-color: #ececec;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 25% 25% 25%;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 10px;
+}
+.image-populaire
+{
+    float: left;
+    width: 30%;
+    height: 90%;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 10px 0px 0px 10px ;  
+}
+.decriptif
+{
+    text-align: left;
+    background: white;
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    border-radius: 10px 10px 10px 10px;
+    height: 150px;
+    box-shadow: 2px 2px  10px grey;
+}
+
+.titre-2
+{
+    font-weight: bold;
+    margin-top: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.chart
+{
+    float:inline-end;
+    color: black;
+    background-color: var(--gris);
+    margin-right: 10px;
+}
+.stars-2
+{
+    margin-top: 20px;
+    color: var(--bleu);
+}
+
+/*footer*/
+
+.activité
+{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;   
+    grid-template-rows: 5% auto;
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    gap: 40px;
+}
+.titre-3
+{
+    grid-column: 1 / 5;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+.image-footer
+{
+    width: 100%;
+    height: 20%;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 5px 0 10px grey ;
+    
+}
+.image-footer-2
+{
+    width: 100%;
+    height: 60%;
+    border-radius: 10% 10% 0% 0%;
+    box-shadow: 5px 0 10px grey ;
+}
+.texte-footer
+{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0 0 10px 10px;
+    border: white solid 3px; 
+    box-shadow: 0px 5px 10px grey;
+    height: 30px;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 70px;
+    
+}
+
+.image-1
+{ 
+    text-decoration: none;
+    
+}    
+.image-2
+{
+    text-decoration: none;
+}
+.image-3
+{
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.footer
+{
+    background-color: #ececec;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+    width: 100%;
+}
+.menu-footer
+{
+    margin-left: 25px;
+}
+.menu-footer2
+{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    margin-left: 40px;
+}
+.menu-footer3
+{
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 669px ) and (orientation:portrait)
+{
+    .logo
+     {width: 90px;margin-bottom: 30px;}
+    nav
+     {grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; padding: 15px;}
+    .sinscrire-btn
+     {grid-column: 2 / 2; grid-row: 1;margin-left: 90px; margin-top: 10px;}
+    .nav-btn
+     {border-bottom:var(--bleuClaire) 3px solid;}
+    .nav-btn:hover
+     { color:var(--bleu);border-top:white; border-bottom:var(--bleu) 3px solid;}  
+    .remarque h1
+     {font-size: 23px;font-weight: bold;margin-right: 15px;}
+    .remarque p
+     {font-size: 16px;}
+    form 
+     {width: 90%; display: inline-block;} 
+    #loupe
+     {display: inline-block; height: 40px; width: 25%;}
+    #bouton
+     {display: none;}
+    .placeholder
+     {width: 60%;}
+    .container 
+     { display: flex; flex-direction: column-reverse; width: 100%;margin: auto;}
+    .section 
+     {display: flex; flex-direction: column;margin: auto; width: 80%;}
+    .aside
+     {gap: 15px; margin: auto; width: 90%;}
+    .activité 
+     {display: flex; flex-direction: column; width: 90%; gap: 40px; margin: 40px auto 40px auto;}
+    .image-footer, .image-footer-2
+     {height: 250px;}
+    .texte-footer
+     {margin-bottom: 0;}
+    .duo-1, .duo-2 
+     {display: flex; flex-direction: column; gap: 40px;}
+     .image-3
+     {margin: 0;}
+     .footer
+     {display: flex; flex-direction: column; width: 100%;}
+}
+
+@media screen and (min-width: 670px) and (max-width: 1000px)
+{
+    .logo
+    {width: 90px;margin-bottom: 30px;}
+   nav
+    {grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; padding: 15px;}
+   .sinscrire-btn
+    {grid-column: 2 / 2; grid-row: 1;margin-left: 90px; margin-top: 10px;}
+   .nav-btn
+    {border-bottom:var(--bleuClaire) 3px solid;}
+   .nav-btn:hover
+    { color:var(--bleu);border-top:white; border-bottom:var(--bleu) 3px solid;}  
+   .remarque h1
+    {font-size: 23px;font-weight: bold;margin-right: 15px;}
+   .remarque p
+    {font-size: 16px;}
+   form 
+    {width: 90%;} 
+   #loupe
+    {display: inline-block;}
+   #bouton
+    {display: none;}
+   .placeholder
+    {width: 60%;}
+   .container 
+    { display: flex; flex-direction: column-reverse; width: 100%;margin: auto;}
+   .section 
+    {grid-template-columns: 1fr 1fr 1fr;width: 85%; margin: auto;}
+   .aside
+    {gap: 8px; margin: auto; width: 90%;}
+   .activité 
+    {width: 90%; gap: 40px; margin: 40px auto 40px auto;}
+   .image-footer
+    {height: 90px;}
+   .image-footer-2
+    {height: 280px;}
+   .texte-footer
+    {margin-bottom: 0;}
+   .duo-1, .duo-2 
+    {display: flex; flex-direction: column; gap: 40px;}
+    .image-3
+    {margin: 0;}
+}
+    
