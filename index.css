@@ -361,7 +361,7 @@ nav
     text-decoration: none;
 }
 
-@media screen and (max-width: 680px ) and (orientation:portrait)
+@media screen and (max-width: 669px ) and (orientation:portrait)
 {
     .logo
      {width: 90px;margin-bottom: 30px;}
@@ -386,13 +386,9 @@ nav
     .placeholder
      {width: 60%;}
     .container 
-     { display: flex; flex-direction: column-reverse; width: 100%;margin: auto;}
+     { display: flex; flex-direction: column-reverse; width: 100%; margin: auto}
     .section 
-     {background-color: white; display: grid; grid-template-columns: 1fr; grid-template-rows: 5% 1fr 1fr 1fr 1fr 1fr 1fr 5%; width: 100%; margin: auto;}
-    .section-carte
-     {grid-column: 1 / 1 ; grid-row: auto;}
-    .afficher-plus
-     {grid-column: 1; grid-row: 8/8;}
+     {display: flex; flex-direction: column; width: 90%; gap: 40px;margin-right: 15px; background-color: white;}
     .aside
      {gap: 15px; margin: auto; width: 90%;}
     .activité 
@@ -409,7 +405,7 @@ nav
      {display: flex; flex-direction: column; width: 100%;}
 }
 
-@media screen and (min-width: 681px) and (max-width: 1000px)
+@media screen and (min-width: 670px) and (max-width: 1000px)
 {
     .logo
     {width: 90px;margin-bottom: 30px;}
