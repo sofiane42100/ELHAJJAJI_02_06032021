@@ -361,7 +361,7 @@ nav
     text-decoration: none;
 }
 
-@media screen and (max-width: 669px ) and (orientation:portrait)
+@media screen and (max-width: 680px ) and (orientation:portrait)
 {
     .logo
      {width: 90px;margin-bottom: 30px;}
@@ -388,7 +388,11 @@ nav
     .container 
      { display: flex; flex-direction: column-reverse; width: 100%;margin: auto;}
     .section 
-     {display: flex; flex-direction: column;margin: auto; width: 80%;}
+     {background-color: white; display: grid; grid-template-columns: 1fr; grid-template-rows: 5% 1fr 1fr 1fr 1fr 1fr 1fr 5%; width: 100%; margin: auto;}
+    .section-carte
+     {grid-column: 1 / 1 ; grid-row: auto;}
+    .afficher-plus
+     {grid-column: 1; grid-row: 8/8;}
     .aside
      {gap: 15px; margin: auto; width: 90%;}
     .activité 
@@ -405,7 +409,7 @@ nav
      {display: flex; flex-direction: column; width: 100%;}
 }
 
-@media screen and (min-width: 670px) and (max-width: 1000px)
+@media screen and (min-width: 681px) and (max-width: 1000px)
 {
     .logo
     {width: 90px;margin-bottom: 30px;}
