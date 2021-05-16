@@ -361,7 +361,7 @@ nav
     text-decoration: none;
 }
 
-@media screen and (max-width: 669px ) and (orientation:portrait)
+@media screen and (max-device-width: 480px ) and (orientation:portrait)
 {
     .logo
      {width: 90px;margin-bottom: 30px;}
