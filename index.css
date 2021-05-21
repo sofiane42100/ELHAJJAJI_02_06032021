@@ -47,6 +47,10 @@ form
     padding: 10px 10px 10px 10px;
     background-color: #ececec;
 }
+.fas.fa-star.grey-star 
+{
+    color: #ececec;   
+}
 .btn-recherche 
 {
     border: 2px solid var(--bleu);
@@ -272,7 +276,7 @@ nav
 
 /*footer*/
 
-.activité
+.activites
 {
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr;   
@@ -361,18 +365,18 @@ nav
     text-decoration: none;
 }
 
-@media screen and (max-device-width: 640px ) and (orientation:portrait)
+@media screen and (max-width: 767px ) and (orientation:portrait)
 {
     .logo
      {width: 90px;margin-bottom: 30px;}
     nav
-     {grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; padding: 15px;}
+     {grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; }
     .sinscrire-btn
      {grid-column: 2 / 2; grid-row: 1;margin-left: 90px; margin-top: 10px;}
     .nav-btn
-     {border-bottom:var(--bleuClaire) 3px solid;}
+     {border-bottom:#ececec 3px solid;width: 130%; margin-left: -20px; margin-bottom: 20px;}
     .nav-btn:hover
-     { color:var(--bleu);border-top:white; border-bottom:var(--bleu) 3px solid;}  
+     { color:var(--bleu); border-top: white; margin-top: 0; border-bottom:var(--bleu) 3px solid; margin-bottom: 20px;}  
     .remarque h1
      {font-size: 23px;font-weight: bold;margin-right: 15px;}
     .remarque p
@@ -380,7 +384,7 @@ nav
     form 
      {width: 90%; display: inline-block;} 
     #loupe
-     {display: inline-block; height: 40px; width: 25%;}
+     {display: inline-block; height: 40px; width: 25%; margin: -4px;}
     #bouton
      {display: none;}
     .placeholder
@@ -388,31 +392,31 @@ nav
     .container 
      { display: flex; flex-direction: column-reverse; width: 100%; margin: auto;}
     .section 
-     {display: flex; flex-direction: column; width: 90%; gap: 40px;margin-left: 0px; background-color: white;}
+     {display: flex; flex-direction: column; width: 90%; gap: 15px;margin-left: 0px; background-color: white;}
     .aside
      {gap: 15px; margin: auto; width: 90%;}
-    .activité 
-     {display: flex; flex-direction: column; width: 90%; gap: 70px; margin-left:10px;}
+    .activites
+     {display: flex; flex-direction: column; width: 90%; gap: 30px; margin-left:35px;margin-bottom: 15px;}
     .image-footer, .image-footer-2
      {width: 100%; height: 100px; }
     .texte-footer
      {margin-bottom: 0;margin-top: -5px;}
     .duo-1, .duo-2 
-     {display: flex; flex-direction: column; gap: 60px;}
+     {display: flex; flex-direction: column; gap: 30px;}
      .image-3, .image-2, .image-1
      {margin: 0; width: 90%;}
      .footer
      {display: flex; flex-direction: column; width: 100%;margin-top: 20px;}
 }
 
-@media screen and (min-device-width: 640px) and (max-width: 1000px)
+@media screen and (min-width: 768px) and (max-width: 1000px)
 {
-    .logo
+   .logo
     {width: 90px;margin-bottom: 30px;}
-   nav
+    nav
     {grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; padding: 15px;}
    .sinscrire-btn
-    {grid-column: 2 / 2; grid-row: 1;margin-left: 90px; margin-top: 10px;}
+    {grid-column: 2 / 2; grid-row: 1; text-align: right; margin-top: 10px;}
    .nav-btn
     {border-bottom:var(--bleuClaire) 3px solid;}
    .nav-btn:hover
@@ -421,7 +425,7 @@ nav
     {font-size: 23px;font-weight: bold;margin-right: 15px;}
    .remarque p
     {font-size: 16px;}
-   form 
+    form 
     {width: 90%;} 
    #loupe
     {display: inline-block;}
@@ -435,7 +439,7 @@ nav
     {grid-template-columns: 1fr 1fr 1fr;width: 85%; margin: auto;}
    .aside
     {gap: 8px; margin: auto; width: 90%;}
-   .activité 
+   .activites
     {display:grid;grid-template-columns: 1fr 1fr; grid-template-rows: 5% auto auto ;width: 90%; gap: 40px; margin: 40px auto 40px auto;}
    .titre-3
     {grid-column: 1 / 3;}
