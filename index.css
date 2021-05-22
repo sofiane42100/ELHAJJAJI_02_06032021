@@ -371,7 +371,7 @@ footer
     text-decoration: none;
 }
 
-@media all and (max-width: 668px ) 
+@media all and (max-width: 667px ) 
 {
     body
      {width: 100%; margin: 0;}
@@ -380,7 +380,7 @@ footer
     nav
      {grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; width: 100%; margin: auto; }
     .sinscrire-btn
-     {grid-column: 2 / 2; grid-row: 1;margin-left: 210px; margin-top: 10px;}
+     {grid-column: 2 / 2; grid-row: 1;margin-left: 100px; margin-top: 10px;}
     .nav-btn
      {border-bottom:#ececec 3px solid; margin-bottom: 20px; width: 100%; margin: 0px;}
     .nav-btn:hover
@@ -425,7 +425,7 @@ footer
      {display: flex; flex-direction: column; width: 100%;margin-top: 20px;margin: 0px;}
 }
 
-@media all and (min-width: 668px) and (max-width: 1000px)
+@media all and (min-width: 667px) and (max-width: 1000px)
 {
     body
     {width: 100%; padding: auto; margin: 0; }
