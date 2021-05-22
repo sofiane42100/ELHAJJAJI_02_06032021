@@ -458,7 +458,7 @@ footer
     section 
     {grid-template-columns: 1fr 1fr 1fr;width: 90%; margin: 0; background-color: white;}
     aside
-    {gap: 8px; margin: auto; width: 100%;}
+    {gap: 18px; margin: auto; width: 100%;}
    .activites
     {display:grid;grid-template-columns: 1fr 1fr; grid-template-rows: 5% auto auto ;width: 90%; gap: 40px; margin: 40px auto 40px auto;}
    .titre-3
