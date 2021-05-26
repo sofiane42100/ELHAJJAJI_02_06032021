@@ -429,7 +429,7 @@ footer
      {display: flex; flex-direction: column; width: 100%;margin-top: 20px;margin: 0px;}
 }
 
-@media all and (min-width: 667px) and (max-width: 1000px)
+@media all and (min-width: 667px) and (max-width: 1030px)
 {
     body
     {width: 100%; margin: 0; }
@@ -452,7 +452,7 @@ footer
     form 
     {width: 90%;} 
    #loupe
-    {display: inline-block;}
+    {display: inline-block;margin: -4px;}
    #bouton
     {display: none;}
    .placeholder
@@ -472,7 +472,7 @@ footer
    .image-footer-2
     {height: 280px;}
    .texte-footer
-    {margin-bottom: 0;}
+    {margin-bottom: 10px;}
    .duo-1, .duo-2 
     {display: flex; flex-direction: column; gap: 40px;}
    .image-3
